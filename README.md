@@ -1,4 +1,4 @@
-# Codesoft
+# Codsoft
 
 
 CODSOFT TASK 1 My first task is to design a To-do list application built using Python. The primary objective of this project is to develop a user-friendly application, accessible through both command-line and graphical user
