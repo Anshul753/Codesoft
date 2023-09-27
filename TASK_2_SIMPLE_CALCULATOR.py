@@ -37,7 +37,7 @@ root = Tk()
 root.title("Calculator")
 root.geometry("280x380")
 root.resizable(0, 0)
-root.configure(background='black')
+root.configure(background='white')
 
 result_label = Label(root, text='', bg='black', fg='white')
 result_label.grid(row=0, column=0, columnspan=4, pady=(50, 35), sticky='w')
@@ -53,7 +53,7 @@ buttons = [
 row_val = 1
 col_val = 0
 for button in buttons:
-    btn = Button(root, text=button, bg='green', fg='white', width=5, height=2)
+    btn = Button(root, text=button, bg='green', fg='black', width=5, height=2)
     btn.grid(row=row_val, column=col_val)
     btn.config(font=('Arial', 14))
     if button in {'+', '-', '*', '/'}:
@@ -71,3 +71,4 @@ for button in buttons:
         row_val += 1
 
 root.mainloop()
+
